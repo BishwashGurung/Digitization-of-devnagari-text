@@ -1,0 +1,1 @@
+# This is a project where we try to digitize handwritten devnagari text (mainly words and sometimes sentence) using Convolutional Neural network and different segmentation process.
