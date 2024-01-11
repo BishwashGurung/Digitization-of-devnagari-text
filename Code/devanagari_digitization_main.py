@@ -42,7 +42,7 @@ u1_characters = ['े','ै','र्','ँ']
 
 u2_characters = ['ो','ाै']
 
-u_characters = ['ि','ी']
+# u_characters = ['ि','ी'] "not really used and when used directly appended"
 
 l_characters = ['ु','ू','्','ृ']
 
@@ -418,7 +418,7 @@ def half_letter_segmentation(window):
         return(window_x,window_y)
     elif(shape1[1]<int(0.45*shape1[0])):
         window=window
-        string1.append('ा')
+        string1.append('ा') # because the width of image compared to its height is very small which means that only possible character is 'ा'
         return(window)
     else: # the middle letter doesnot have any half letter joined
         window=window
